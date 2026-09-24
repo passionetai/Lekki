@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Family Safety Playbook — Keep Your Family Safe in Nigeria</title>
+<meta name="description" content="A calm, step-by-step guide that teaches your family how to avoid kidnapping, robbery and scams in Nigeria — and exactly what to do if the worst happens.">
+<meta property="og:title" content="The Family Safety Playbook">
+<meta property="og:description" content="The families who stay safe aren't lucky — they're prepared. A calm, practical safety guide for Nigerian families.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="logo.png">
+<!-- Checkout link: the live Selar URL from the Starter Checklist PDF. If selar.co/familysafetyplaybook is canonical, replace all 3 hrefs (see QUESTIONS.md #1). -->
+<style>
+  :root{
+    --navy:#13294b;
+    --navy-2:#1f3a5f;
+    --teal:#2a9d8f;
+    --green:#1f9d57;
+    --green-dark:#157a43;
+    --ink:#23272e;
+    --muted:#5b6470;
+    --paper:#f7f8fa;
+    --line:#e4e7ec;
+    --gold:#e7b53c;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink);
+    background:var(--paper);
+    line-height:1.65;
+    font-size:18px;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3{font-family:Georgia,"Times New Roman",serif;line-height:1.2;color:var(--navy);}
+  .wrap{max-width:760px;margin:0 auto;padding:0 22px;}
+  p{margin:0 0 1em;}
+  .hero{
+    background:linear-gradient(160deg,var(--navy) 0%,var(--navy-2) 70%,var(--teal) 160%);
+    color:#fff;text-align:center;padding:72px 22px 64px;
+  }
+  .hero .wrap{padding:0;}
+  .hero .eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:.8rem;color:var(--gold);font-weight:700;margin-bottom:18px;}
+  .hero h1{color:#fff;font-size:clamp(2rem,6vw,3.1rem);margin-bottom:22px;}
+  .hero .sub{font-size:clamp(1.05rem,2.6vw,1.3rem);color:#dfe6ef;max-width:620px;margin:0 auto 34px;}
+  .brand-logo{width:92px;height:92px;border-radius:20px;display:block;margin:0 auto 24px;box-shadow:0 8px 22px rgba(0,0,0,.30);}
+  .mockup{display:block;width:72%;max-width:330px;margin:10px auto 26px;}
+  .btn{
+    display:inline-block;background:var(--green);color:#fff;text-decoration:none;
+    font-weight:700;font-size:1.18rem;padding:18px 38px;border-radius:12px;
+    box-shadow:0 10px 24px rgba(31,157,87,.35);transition:transform .12s ease,background .2s ease;
+    border:none;cursor:pointer;
+  }
+  .btn:hover{background:var(--green-dark);transform:translateY(-2px);}
+  .btn .small{display:block;font-size:.8rem;font-weight:500;opacity:.9;margin-top:4px;}
+  .cta-note{font-size:.92rem;color:var(--muted);margin-top:14px;}
+  .hero .cta-note{color:#aebacb;}
+  section{padding:54px 0;}
+  section:nth-child(even){background:#fff;}
+  h2{font-size:clamp(1.5rem,4vw,2rem);margin-bottom:8px;}
+  .kicker{text-transform:uppercase;letter-spacing:.12em;font-size:.78rem;font-weight:700;color:var(--teal);margin-bottom:10px;}
+  .lead{font-size:1.15rem;}
+  .stats{list-style:none;display:grid;gap:14px;margin:8px 0 0;}
+  .stats li{background:var(--paper);border-left:4px solid var(--teal);padding:14px 18px;border-radius:8px;}
+  section:nth-child(even) .stats li{background:#f3f5f8;}
+  .box{background:var(--navy);color:#fff;border-radius:16px;padding:30px 28px;margin:8px 0;}
+  .box h3{color:#fff;font-size:1.4rem;margin-bottom:10px;}
+  .modules{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px;}
+  .modules .m{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:16px 18px;}
+  section:nth-child(even) .modules .m{background:#f7f8fa;}
+  .modules .m b{color:var(--navy);}
+  .bonus{list-style:none;display:grid;gap:14px;margin-top:14px;}
+  .bonus li{display:flex;gap:14px;align-items:flex-start;background:#eef7f1;border-radius:10px;padding:16px 18px;}
+  .bonus .ic{font-size:1.6rem;line-height:1;}
+  .who{list-style:none;margin-top:14px;display:grid;gap:10px;}
+  .who li{padding-left:28px;position:relative;}
+  .who li:before{content:"\2713";position:absolute;left:0;color:var(--green);font-weight:700;}
+  .price-wrap{text-align:center;}
+  .price{font-size:3rem;font-family:Georgia,serif;color:var(--navy);font-weight:700;}
+  .price s{font-size:1.4rem;color:var(--muted);font-weight:400;margin-left:8px;}
+  .price-tag{display:inline-block;background:var(--gold);color:#3a2c00;font-weight:700;font-size:.85rem;padding:5px 12px;border-radius:20px;letter-spacing:.04em;margin-bottom:14px;}
+  details{background:#fff;border:1px solid var(--line);border-radius:10px;margin-bottom:12px;overflow:hidden;}
+  section:nth-child(even) details{background:var(--paper);}
+  summary{cursor:pointer;font-weight:700;padding:16px 20px;font-size:1.05rem;list-style:none;color:var(--navy);}
+  summary::-webkit-details-marker{display:none;}
+  summary:after{content:"+";float:right;color:var(--teal);font-size:1.3rem;line-height:1;}
+  details[open] summary:after{content:"\2013";}
+  details .a{padding:0 20px 18px;color:var(--ink);}
+  .guarantee{text-align:center;border:2px dashed var(--green);border-radius:16px;padding:30px 26px;background:#f1faf4;}
+  .guarantee .seal{font-size:2.4rem;}
+  .final{background:linear-gradient(160deg,var(--navy) 0%,var(--navy-2) 100%);color:#fff;text-align:center;}
+  .final h2{color:#fff;}
+  .final p{color:#dfe6ef;}
+  footer{background:#0c1830;color:#aebacb;text-align:center;padding:36px 22px;font-size:.92rem;}
+  footer a{color:#9be8b9;text-decoration:none;}
+  .tagline{font-family:Georgia,serif;font-style:italic;color:#fff;font-size:1.15rem;margin-bottom:14px;}
+  @media(max-width:560px){
+    body{font-size:17px;}
+    .modules{grid-template-columns:1fr;}
+    .btn{width:100%;padding:18px 20px;}
+    section{padding:42px 0;}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <img class="brand-logo" src="logo.png" alt="The Family Safety Playbook logo">
+    <div class="eyebrow">The Family Safety Playbook · Nigeria Edition</div>
+    <h1>Last year, 2.2 million Nigerians were kidnapped. The families who stay safe aren't lucky — they're prepared.</h1>
+    <p class="sub">A calm, step-by-step guide that teaches your family how to avoid kidnapping, robbery and scams — and exactly what to do if the worst ever happens. No fear. No paranoia. Just a plan that works.</p>
+    <a class="btn" href="https://selar.com/791a812429">Get my playbook now →<span class="small">Instant download · ₦15,000 launch price</span></a>
+    <p class="cta-note">Founding-readers price — regular price ₦20,000</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="kicker">Picture this</div>
+    <p class="lead">It's 7:40 p.m. at a busy bus stop. A cab slows down, already holding two quiet passengers, and the driver waves you in — <em>"enter, last seat!"</em> You're tired. It's getting dark. The next bus is nowhere.</p>
+    <p>Every day, in every city in Nigeria, that exact moment decides who gets home safe and who doesn't. And the family that comes through it isn't braver, richer, or luckier than yours. They simply <em>knew what to look for</em> — and had already decided what to do.</p>
+    <p><strong>That decision is what this playbook gives you.</strong></p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="kicker">The hard truth</div>
+    <h2>We have to be honest — because pretending all is well is its own kind of danger.</h2>
+    <p>The Nigeria many of us grew up in has changed, and the numbers are sobering:</p>
+    <ul class="stats">
+      <li>The National Bureau of Statistics recorded around <strong>2.2 million kidnapping incidents</strong> in a single year (May 2023–April 2024), with families paying roughly <strong>₦2.23 trillion in ransom.</strong></li>
+      <li>Independent trackers logged at least <strong>4,722 people abducted</strong> in the year to June 2025 — no part of the country truly untouched.</li>
+      <li>Into 2026, civic groups warned that <strong>over 1,000 Nigerians</strong> were taken in the first weeks of the year alone.</li>
+      <li>School raids returned with a vengeance — hundreds of children seized in single attacks, spreading well beyond the old northern flashpoints.</li>
+    </ul>
+    <p style="margin-top:18px;">These aren't foreign headlines. They are our neighbours, our colleagues, the people we sit beside in church and at the mosque.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="kicker">But here's the hope</div>
+    <h2>The picture is not hopeless — and you are not helpless.</h2>
+    <p>In that same period, Nigerian banks reported that digital-payment fraud <em>fell by about 51%</em> — from ₦52.26 billion to ₦25.85 billion in a single year. That didn't happen by luck. It happened because people got <strong>smarter, more careful, and harder to fool.</strong></p>
+    <p>That is the entire premise of this playbook. Because every criminal — the armed robber, the "one chance" gang, the kidnap crew, the online fraudster — needs the same three things to win:</p>
+    <div class="box">
+      <h3>Surprise. Isolation. Control.</h3>
+      <p style="color:#dfe6ef;margin:0;">Take away even one, and most attacks fall apart. Awareness destroys surprise. Good habits deny isolation. A practised plan strips away control. You don't need to be a fighter, wealthy, or armed — you only need to be a harder, less predictable target than the situation around you. <em>And that, every family can become.</em></p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="kicker">What it is</div>
+    <h2>The Family Safety Playbook (Nigeria Edition)</h2>
+    <img class="mockup" src="mockup.png" alt="The Family Safety Playbook book">
+    <p class="lead">A premium, beautifully designed digital guide (PDF + mobile-friendly version) that turns the methods security professionals use into plain, practical habits any Nigerian family can follow — whether you live in a gated estate or a face-me-I-face-you compound, drive your own car or board a danfo every morning.</p>
+    <p>It is calm, not gory. Practical, not preachy. And it's built to be <em>used</em>, not just read — packed with checklists, scripts, and quick-reference cards you'll actually reach for.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="kicker">What's inside</div>
+    <h2>8 complete modules, an intro, quick-reference cards, and an emergency directory</h2>
+    <div class="modules">
+      <div class="m"><b>Module 1 — Situational awareness:</b> spot trouble before it ever reaches you.</div>
+      <div class="m"><b>Module 2 — Daily movement:</b> commuting, traffic, ATMs, ride-hailing &amp; "one chance."</div>
+      <div class="m"><b>Module 3 — Home &amp; estate security:</b> turn your home into the house criminals skip.</div>
+      <div class="m"><b>Module 4 — Child &amp; school safety:</b> code words, safe pickups, protecting your children.</div>
+      <div class="m"><b>Module 5 — Vehicle &amp; travel:</b> the car, the checkpoint, and the open road.</div>
+      <div class="m"><b>Module 6 — If the worst happens:</b> calm kidnap &amp; ransom response, step by step.</div>
+      <div class="m"><b>Module 7 — Digital &amp; financial safety:</b> beat scams, fraud, SIM-swap &amp; AI voice-clones.</div>
+      <div class="m"><b>Module 8 — Your Family Emergency Plan:</b> pull it all into one plan you've practised.</div>
+    </div>
+    <p style="margin-top:20px;">Every module ends with a <strong>checklist</strong> and a <strong>fill-in-the-blank worksheet</strong> — so by the time you finish, you don't just have a book. You have <em>your family's own written safety plan.</em></p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="kicker">Free bonuses</div>
+    <h2>Included free with your playbook</h2>
+    <ul class="bonus">
+      <li><span class="ic">🛡️</span><div><strong>10 Quick-Reference Cards</strong> — one-page, screenshot-ready checklists for your phone, wallet, fridge and car: the 3-turn follow test, the gate-verification script, the ransom-call do's &amp; don'ts, and more.</div></li>
+      <li><span class="ic">📞</span><div><strong>Emergency Contacts Directory</strong> — verified national emergency and security lines, ready to print and keep close.</div></li>
+      <li><span class="ic">🛒</span><div><strong>Recommended Safety Gear list</strong> — a curated, always-updated list of practical, affordable safety gear, with exactly what to look for.</div></li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="kicker">Who it's for</div>
+    <h2>The ordinary Nigerian family that wants to live fully and freely</h2>
+    <p>To travel, do business, raise children, build a home — without handing easy opportunities to the few who would prey on them.</p>
+    <ul class="who">
+      <li>The parent planning the school run.</li>
+      <li>The driver on the long interstate road.</li>
+      <li>The young professional taking a ride home after dark.</li>
+      <li>The trader protecting her day's earnings.</li>
+      <li>The family putting up their first gate.</li>
+    </ul>
+    <p style="margin-top:16px;"><strong>If that's you, this playbook was written for you.</strong></p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap price-wrap">
+    <div class="price-tag">FOUNDING-READERS LAUNCH PRICE</div>
+    <div class="price">₦15,000<s>₦20,000</s></div>
+    <p style="max-width:560px;margin:14px auto 0;">₦15,000 is <em>less than the cost of one stolen phone.</em> It's a fraction of a single ATM withdrawal an express-kidnap gang would force from you. It's nothing next to even the smallest ransom demand.</p>
+    <p style="max-width:560px;margin:0 auto 24px;">You are not buying a PDF. You are buying <strong>calm, preparation, and the quiet confidence that your family knows exactly what to do.</strong></p>
+    <a class="btn" href="https://selar.com/791a812429">Get my playbook now →<span class="small">Instant download · lifetime access</span></a>
+    <p class="cta-note">This launch price returns to ₦20,000 soon — lock in ₦15,000 today.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="guarantee">
+      <div class="seal">✅</div>
+      <h2>30-day, no-questions-asked refund</h2>
+      <p style="max-width:560px;margin:8px auto 0;">We believe in this guide completely. Read it, put the routines into practice with your family, and if you still don't feel calmer and more prepared, just reply any time within 30 days for a full refund — no forms, no hoops. The only real risk is doing nothing.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="kicker">Questions</div>
+    <h2>Frequently asked</h2>
+    <details><summary>Is this just common sense I already know?</summary><div class="a">Some of it will feel familiar — and that's the point. The playbook turns scattered "I know I should…" into a <em>practised, written system</em> your whole household actually follows. Knowing isn't the same as being ready.</div></details>
+    <details><summary>Will it frighten my children?</summary><div class="a">No. Everything is designed to be taught calmly, as rules and games, never as fear lectures. The goal is a family that feels <em>capable</em>, not scared.</div></details>
+    <details><summary>I don't live in a "dangerous" area. Do I still need it?</summary><div class="a">Yes. Predictability, not neighbourhood, is what marks a target. The habits in this guide protect you everywhere — and most cost nothing to start.</div></details>
+    <details><summary>How do I get it after paying?</summary><div class="a">Instant download. You'll receive the PDF (and the mobile-friendly version) the moment your payment is confirmed.</div></details>
+    <details><summary>What if I have a question after buying?</summary><div class="a">You are never on your own. Every buyer gets direct help by email and WhatsApp — email us at <a href="mailto:info@familysafetyplaybook.com">info@familysafetyplaybook.com</a> or message us on WhatsApp at <a href="https://wa.me/2348053717830">+234 805 371 7830</a>, and a real person will get back to you.</div></details>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <h2>You can't control everything that happens in this country.</h2>
+    <p style="font-size:1.15rem;">But you <em>can</em> control how ready your family is for it — and that readiness is now one decision away. The families who stay safe aren't the lucky ones. They're the prepared ones.</p>
+    <a class="btn" href="https://selar.com/791a812429" style="margin-top:10px;">Get my playbook now → ₦15,000<span class="small">Instant download · lifetime access · 30-day guarantee</span></a>
+  </div>
+</section>
+
+<footer>
+  <div class="tagline">Stay aware. Stay prepared. Stay free.</div>
+  <p>The Family Safety Playbook · Nigeria Edition<br>
+  Questions? <a href="mailto:info@familysafetyplaybook.com">info@familysafetyplaybook.com</a> · WhatsApp <a href="https://wa.me/2348053717830">+234 805 371 7830</a></p>
+  <p style="margin-top:14px;font-size:.82rem;opacity:.7;">© 2026 The Family Safety Playbook. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
