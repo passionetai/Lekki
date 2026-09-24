@@ -1,6 +1,6 @@
 # Decision 001: Brother's channel — separate website or affiliate link?
 
-**Status:** Recommendation made, waiting on Jerry · **Date:** 2026-09-24
+**Status:** ✅ Affiliate route chosen (links received and placed; see `PARTNER-LINKS.md`) · **Date:** 2026-09-24
 
 > Note on "chat memories": this was prepared in a Claude Code session, which can't see your claude.ai chat history or memories. It's based only on the Notion export and the PDFs in this repo. If an earlier chat settled something that conflicts with this (for example, a commission split you already agreed), that chat wins. Add it to `QUESTIONS.md`.
 
@@ -46,7 +46,7 @@ If his buyers join **your** WhatsApp Channel first and later buy through **your*
 - You plan to split the brand deliberately, for example **he runs the diaspora/Gumroad USD version** while you run NGN. That's a cleaner split than two NGN sites competing for the same buyers.
 
 ## Decision
-- [ ] Jerry confirms B, or picks A (and a licence gets written)
+- [x] Jerry confirms B: affiliate links (Selar + Jumia), and the brother gets partner PDF copies
 - [ ] Commission % set: ___
-- [ ] Brother's affiliate link: ___
+- [x] Brother's affiliate links: Selar `selar.com/m/familysafetyplaybook?affiliate=4su2z40553` · Jumia `jforce.jumia.com.ng/s/bIn1A6K`
 - [ ] Separate WhatsApp for his audience: yes / no

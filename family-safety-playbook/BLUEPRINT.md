@@ -44,6 +44,10 @@
 - Direct WhatsApp chat: `https://wa.me/2348053717830`
 - Support email: `info@familysafetyplaybook.com`
 - Domain: `familysafetyplaybook.com`
+- Selar store page: `selar.com/m/familysafetyplaybook`
+
+### Partner (brother) links
+Selar affiliate `selar.com/m/familysafetyplaybook?affiliate=4su2z40553` · Jumia `jforce.jumia.com.ng/s/bIn1A6K`. They appear only in the partner assets. See `PARTNER-LINKS.md`.
 
 ---
 
@@ -176,7 +180,7 @@ Greeting auto-reply → keyword **SAFETY** sends the checklist → 5-day sequenc
 **Phase 1 (organic, weeks 1–2):** set up IG/TikTok/X/FB → post daily → drive everything to the Channel → sell the Kit and Playbook to the warm audience → collect first sales and testimonials.
 **Phase 2 (paid):** turn the winning organic posts into ads → Channel join; retarget with Kit/Playbook; test one straight-to-Kit ad set; track cost per buyer and revenue per subscriber.
 **Parallel:** pitch 5–10 security vendors (Rung 3); at 20 sales switch on Templates; at 500 subscribers switch on the paid community.
-**New:** partner/affiliate channel for a family member (see `DECISIONS/001-brother-affiliate-vs-alt-site.md`).
+**Partner channel (live):** the brother sells through Selar + Jumia affiliate links. His own copies of the Playbook and checklist PDFs and the alternate page carry his links (`PARTNER-LINKS.md`).
 
 ---
 
